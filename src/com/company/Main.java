@@ -42,6 +42,8 @@ public class Main {
         }
 
         System.out.println(" Отсортированный список: \n        \"A\" и \"B\"");
+        ArrayList<String> ArrayListC = new ArrayList<>();
+        ArrayListC.sort(Comparator.comparingInt(String::length));
         System.out.println(arrayListC);
     }
 }
